@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "git+http://github.com/lukejohnhammond/fundraiser-component.git"
-  }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {

@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.fr-holder {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center; }
+  .fr-holder, .fr-holder * {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 22px; }
+  .fr-holder .component {
+    height: 20%;
+    width: 30%; }
+    .fr-holder .component * {
+      text-align: left; }
+  .fr-holder h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 20px 0; }
+  .fr-holder .slider {
+    height: 20px;
+    width: 80%;
+    float: left;
+    overflow: hidden;
+    background-image: linear-gradient(0deg, #A8A8A8 0%, #D4D4D4 100%);
+    border-radius: 10px; }
+    .fr-holder .slider .value {
+      height: 20px;
+      width: 10%;
+      background-image: linear-gradient(-135deg, #B4ED50 0%, #429321 100%);
+      border-radius: 10px;
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+      transition: all .5s; }
+  .fr-holder .targetValue {
+    width: 20%;
+    float: right;
+    position: relative; }
+    .fr-holder .targetValue span {
+      display: block;
+      position: relative;
+      font-weight: bold;
+      text-align: center; }
+      .fr-holder .targetValue span.key {
+        margin-top: -12px; }
+      .fr-holder .targetValue span.value {
+        margin-top: 0px; }
+  .fr-holder .message {
+    clear: both; }
+  .fr-holder button {
+    margin: 10px 5px 0px 5px;
+    padding: 5px 20px;
+    background-image: linear-gradient(-180deg, #30BFE7 0%, #0B5DDD 100%);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px; }
+    .fr-holder button:hover {
+      cursor: pointer;
+      background-image: linear-gradient(-180deg, #30BFE7 0%, #0B5DDD 50%); }

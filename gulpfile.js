@@ -39,7 +39,7 @@ gulp.task('scripts', () => {
       presets: ['es2015'],
       compact: true
     }))
-    .pipe(concat('app.js'))
+    .pipe(concat('fundraiser.js'))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('public/js'));
 });

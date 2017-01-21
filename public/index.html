@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Fundraiser Component</title>
     <script src="/js/vendor.js" charset="utf-8"></script>
     <script src="/js/fundraiser.js" charset="utf-8"></script>
@@ -11,16 +12,18 @@
     <div class="fr-holder">
       <div class="component" id="component_1">
         <h3>Fundraising Campaign</h3>
-        <div class="slider" id="slider">
-          <div class="value">
+        <div class="box">
+          <div class="targetValue">
+            Your target:
+            <span class="value">£100</span>
           </div>
-        </div>
-        <div class="targetValue">
-          <span class="key">Target</span>
-          <span class="value">£100</span>
-        </div>
-        <div class="message">
-          <p>You need &pound;<span>53</span> to reach your target</p>
+          <div class="slider" id="slider">
+            <div class="value">
+            </div>
+          </div>
+          <div class="message">
+            <p>You need &pound;<span>53</span> to reach your target</p>
+          </div>
         </div>
         <button type="button" name="button" value="1">Add &pound;1</button>
         <button type="button" name="button" value="5">Add &pound;5</button>

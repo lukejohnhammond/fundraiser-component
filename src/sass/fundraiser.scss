@@ -39,9 +39,13 @@ body {
     .box {
       margin: 0 0 10px 0;
       padding: 10px;
-      background-color: rgba(150,150,150,0.1);
+      background-color: rgba(10,10,10,0.9);
       border-radius: 10px;
       box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
+
+      * {
+        color: #fff;
+      }
     }
   }
 
@@ -57,20 +61,22 @@ body {
     height: 20px;
     width: 100%;
     margin: 0px 0px 10px 0px;
+    padding: 4px;
 
     overflow: hidden;
 
-    background-image: linear-gradient(0deg, #A8A8A8 0%, #D4D4D4 100%);
+    background-image: linear-gradient(0deg, #121212 0%, #282828 100%);
+    border: 1px #565656 solid;
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
 
     .value {
-      height: 20px;
+      height: 10px;
       width: 0%;
 
       background-image: linear-gradient(-135deg, #B4ED50 0%, #429321 100%);
       border-radius: 10px;
-      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 4px 2px rgba(71, 93, 31, 1);
 
       transition: all 1s;
     }
